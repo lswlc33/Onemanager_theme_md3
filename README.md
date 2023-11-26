@@ -25,9 +25,9 @@
 
 ## 🎶 主题展示
 
-<img src="src/1.png" width="200px" alt="">
-<img src="src/2.png" width="200px" alt="">  
-<img src="src/3.jpeg" width="400px" alt="">
+<img src="src/1.png" width="auto" alt="">
+<img src="src/2.png" width="auto" alt="">  
+<img src="src/3.jpeg" width="auto" alt="">
 
 ## ✨ 如何使用主题？
 1. 复制链接: [链接]((https://raw.githubusercontent.com/lswlc33/Onemanager_theme_md3/master/O-Material-3.html)
