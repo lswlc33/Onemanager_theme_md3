@@ -24,9 +24,10 @@
 - 后台管理界面
 
 ## 🎶 主题展示
-
-<img src="src/1.png" width="auto" alt="">
-<img src="src/2.png" width="auto" alt="">  
+<figure class="half">
+    <img src="src/1.png" width="40%" alt="">
+    <img src="src/2.png" width="40%" alt="">  
+</figure>
 <img src="src/3.jpeg" width="auto" alt="">
 
 ## ✨ 如何使用主题？
