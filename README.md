@@ -30,9 +30,9 @@
 <img src="src/3.jpeg" width="400px" alt="">
 
 ## ✨ 如何使用主题？
-1. 复制链接: [链接](https://raw.githubusercontent.com/lswlc33/Onemanager_theme_new_onedrive/master/new_onedrive.html)
+1. 复制链接: [链接]((https://raw.githubusercontent.com/lswlc33/Onemanager_theme_md3/master/O-Material-3.html)
     ```
-    https://raw.githubusercontent.com/lswlc33/Onemanager_theme_new_onedrive/master/new_onedrive.html
+    https://raw.githubusercontent.com/lswlc33/Onemanager_theme_md3/master/O-Material-3.html
     ```
 2. 进入Onemaneger后台  
 3. 填入 `平台变量` - `customTheme` 字段  
