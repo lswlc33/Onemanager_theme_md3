@@ -31,7 +31,7 @@
 <img src="src/3.jpeg" width="auto" alt="">
 
 ## ✨ 如何使用主题？
-1. 复制链接: [链接]((https://raw.githubusercontent.com/lswlc33/Onemanager_theme_md3/master/O-Material-3.html)
+1. 复制链接: [链接](https://raw.githubusercontent.com/lswlc33/Onemanager_theme_md3/master/O-Material-3.html)
     ```
     https://raw.githubusercontent.com/lswlc33/Onemanager_theme_md3/master/O-Material-3.html
     ```
