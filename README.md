@@ -25,8 +25,8 @@
 
 ## 🎶 主题展示
 <figure class="half">
-    <img src="src/1.png" width="40%" alt="">
-    <img src="src/2.png" width="40%" alt="">  
+    <img src="https://raw.githubusercontent.com/lswlc33/Onemanager_theme_md3/96e947afb106533eff32d7b7092e9b836ec23acc/src/1.png" width="40%" alt="">
+    <img src="https://raw.githubusercontent.com/lswlc33/Onemanager_theme_md3/96e947afb106533eff32d7b7092e9b836ec23acc/src/2.png" width="40%" alt="">  
 </figure>
 <img src="src/3.jpeg" width="auto" alt="">
 
