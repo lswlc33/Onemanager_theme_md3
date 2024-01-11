@@ -513,6 +513,54 @@
             background: rgb(125, 158, 211);
         }
 
+
+        .nextpagediv{
+            display: flex;
+            justify-content: center;
+            transition: 0.5s;
+            background: #28292a;
+            margin: 30px;
+            border-radius: 24px;
+            font-size: 17px;
+            padding: 10px 0;
+        }
+
+        .nextpagediv:hover{
+            background: #92b9f8;
+            color: #000;
+        }
+        #nextpageform{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            transition: 0.5s;
+            background: #28292a;
+            margin: 30px;
+            border-radius: 24px;
+        }
+
+        .pagenum_div{
+            min-width: 20%;
+            transition: 0.5s;
+            text-align: center;
+            padding: 10px 0px;
+            border-radius: 24px;
+            flex: 1;
+        }
+        .pagenum_div:hover{
+            background: #a8a8a8;
+            border-radius: 24px;
+        }
+        .now_page{
+            background-color: #92b9f8;
+            border-radius: 24px;
+            color: #000;
+        }
+        .now_page:hover{
+            background-color: #7090c4;
+        }
+
+
         @media screen and (max-width: 600px) {
             .main-items-dateTime{display: none;}
             .main-items-dateModified{display: none;}
@@ -743,6 +791,45 @@
                 </div>
 <!--FileListEnd-->
             </div>
+
+<!--MorePageStart-->
+            <script>
+                function nextpage(num) {
+                    document.getElementById('pagenum').value = num;
+                    document.getElementById('nextpageform').submit();
+                }
+            </script>
+
+<!--PrePageStart-->
+            <div class="nextpagediv" onclick="nextpage('<!--PrePageNum-->');">
+                <!--constStr@PrePage-->
+            </div>
+<!--PrePageEnd-->
+
+            <form action="" method="POST" id="nextpageform">
+                <input type="hidden" id="pagenum" name="pagenum" value="">
+
+<!--MorePageListStart-->
+                <div class="pagenum_div" onclick="nextpage('<!--PageNum-->');">
+                    <!--PageNum-->
+                </div>
+<!--MorePageListEnd-->
+<!--MorePageListNowStart-->
+                <div class="pagenum_div now_page">
+                    ⌂
+                </div>
+<!--MorePageListNowEnd-->
+
+            </form>
+
+<!--NextPageStart-->
+            <div class="nextpagediv" onclick="nextpage('<!--NextPageNum-->');">
+                <!--constStr@NextPage-->
+            </div>
+<!--NextPageEnd-->
+<!--MorePageEnd-->
+
+
 <!--IsFolderEnd-->
 <!--ReadmemdStart-->
             <div class="main-item-list" id="readme-div" style="padding: 20px;">

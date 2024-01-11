@@ -7,8 +7,6 @@
 
 一个以 `Onedrive-dev` 为底包，疯狂魔改而来的**全新** [Onemanager](https://github.com/qkqpttgf/OneManager-php) 主题
 
-不一定的示例站点: [雪中明月的网盘](https://pan.xn--fiqz59cpva341l.top/)
-
 
 ## 🎁 特性 
 1. 全新 UI 界面
@@ -22,6 +20,8 @@
 
 ## 💤 暂不计划
 - 后台管理界面
+
+## 不再更新，除非遇到严重影响使用的BUG
 
 ## 🎶 主题展示
 <figure class="half">
